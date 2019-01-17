@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`A suite renders HTML tree correctly 1`] = `
+<NotFound>
+  <div>
+    NotFound
+  </div>
+</NotFound>
+`;
+
+exports[`A suite renders components tree correctly 1`] = `
+<NotFound>
+  <div>
+    NotFound
+  </div>
+</NotFound>
+`;
+
+exports[`A suite renders isolated component correctly 1`] = `
+<div>
+  NotFound
+</div>
+`;

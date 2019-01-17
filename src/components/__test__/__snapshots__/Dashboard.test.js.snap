@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`A suite renders HTML tree correctly 1`] = `
+<Dashboard>
+  <div>
+    Dashboard
+  </div>
+</Dashboard>
+`;
+
+exports[`A suite renders components tree correctly 1`] = `
+<Dashboard>
+  <div>
+    Dashboard
+  </div>
+</Dashboard>
+`;
+
+exports[`A suite renders correctly 1`] = `
+<Fragment>
+  <div>
+    Dashboard
+  </div>
+</Fragment>
+`;
+
+exports[`A suite renders isolated component correctly 1`] = `
+<Fragment>
+  <div>
+    Dashboard
+  </div>
+</Fragment>
+`;

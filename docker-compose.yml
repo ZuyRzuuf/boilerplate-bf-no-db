@@ -1,0 +1,22 @@
+version: '2'
+
+services:
+  nodejs:
+    build: ./docker/node
+    ports:
+      - 3000:3000
+      - 4000:4000
+      - 8081:8080
+    volumes:
+      - .:/var/www/app
+    networks:
+      app:
+        ipv4_address: "10.7.0.2"
+
+networks:
+  app:
+    driver: bridge
+    ipam:
+      config:
+      - subnet: "10.7.0.0/16"
+        gateway: "10.7.0.1"
