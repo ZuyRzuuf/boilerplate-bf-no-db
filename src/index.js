@@ -8,6 +8,6 @@ ReactDOM.render(
     document.getElementById('index')
 );
 
-if(typeof(module.hot) !== 'undefined') {
-    module.hot.accept() // eslint-disable-line no-undef
-}
+// if(typeof(module.hot) !== 'undefined') {
+//     module.hot.accept() // eslint-disable-line no-undef
+// }

@@ -29,17 +29,17 @@ module.exports = {
                 exclude: /node_modules/,
                 use: ['babel-loader', 'eslint-loader']
             },
-            // {
-            //     // Loads the javacript into html template provided.
-            //     // Entry point is set below in HtmlWebPackPlugin in Plugins
-            //     test: /\.html$/,
-            //     use: [
-            //         {
-            //             loader: "html-loader",
-            //             //options: { minimize: true }
-            //         }
-            //     ]
-            // },
+            {
+                // Loads the javacript into html template provided.
+                // Entry point is set below in HtmlWebPackPlugin in Plugins
+                test: /\.html$/,
+                use: [
+                    {
+                        loader: "html-loader",
+                        options: { minimize: true }
+                    }
+                ]
+            },
             // {
             //     test: /\.css$/,
             //     use: [ 'style-loader', 'css-loader' ]
